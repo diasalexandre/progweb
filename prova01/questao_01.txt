@@ -1,0 +1,14 @@
+A) Linha 02: Os comentários em HTML não são desta forma e sim da forma <!-- -->
+
+B) Linha 04: O seletor h1 não irá executar nada se chamado dentro do seletor <head>, apenas se for no body. Desta forma apresentada não será mostrado este seletor 
+
+C) Linha 02: Não está sendo selecionado as tags <html>/</html> indispensável para execução, está sendo chamado o do doctype que apenas refere ao time do documento e não a inicialização deste.
+
+D) Linha 10: Não está finalizando o seletor <strong> fazendo toda a string ficar "boldada", é necessário o </strong> para limitação do conteúdo, provavelmente apos o (Icomp)
+
+Bônus de sintaxe:
+Há seletores como o meta, img que mesmo que só sejam uma linha seria interessante que tivessem um /> no final, fazendo que os mesmos tivessem essa forma:
+
+1. <meta charset="utf-8" />
+2. <img src="imagem.png" />
+

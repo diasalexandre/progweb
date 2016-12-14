@@ -1,0 +1,10 @@
+<style type="text/css">
+	p .cl1 { /* Regras aqui */ }
+	span.cl1 { /* Regras aqui */ }
+	span { /* Regras aqui */ }
+
+/* Outras formas */
+body > span.cl1, p > span 
+
+/* E variantes */
+</style>

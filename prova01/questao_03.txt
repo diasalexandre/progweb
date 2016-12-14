@@ -1,0 +1,9 @@
+Hoisting é basicamente como os interpretadores JavaScript interpretam variáveis e seus escopos, é basicamente pegar todas as declarações e trazer para o topo da execução, porém apenas a declaração e não a atribuição.
+
+(function() {
+	console.log(name); //Não vai dar erro e sim undefined
+	var name = "Alexandre Dias";
+	function showName() {
+		console.log(name);
+	}
+});

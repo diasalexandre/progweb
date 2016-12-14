@@ -1,0 +1,20 @@
+Passos para commit
+
+1. git clone https://github.com/diasalexandre/prova01.git
+2. git add *
+3. git commit -m "Primeiro commit para atividades da prova 01 de Programação Web" 
+4. git push origin master
+
+É interessante termos commit atômicos, ou seja, de menor tamanho para modificação posterior, como fiz todos de uma vez só utilizei os comandos acima, porém se for necessária fazer de outra forma os passos 2 e 3 entram como se fosse um loop com as questões adicionando apenas os arquivos modificados e apenas os comentários relacionados a cada.
+
+Respondendo a questão da questão.
+
+a) Working directory:
+É o ambiente da aplicação após o commit, é o local onde os arquivos estão para serem trabalhados (modificados) porém ainda não commitados, ou seja, fora de sua relação com o que está hospedado em seu repositório.
+
+b) Index:
+Index é o identificador do arquivo para aquele repositório, um arquivo sem ter dado add ele fica apenas como um arquivo localizado localmente, quando é feito o add o arquivo é indexado e colocado na fila para commit, onde este é feito (preferencialmente com um comentário) e todos que estavam na fila do commit (os indexados) é gerado um hash para aquele conjunto e se feito push sincronizado com um servidor.
+
+c) Repository:
+É o repositório da aplicação, ou seja, o local onde os arquivos estão, eles podem ser locais, como o working directoty ou remotos, quando estão trackeados e hospedados no servidor para um outro user poder modifica-los.
+
